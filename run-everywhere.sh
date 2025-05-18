@@ -1,10 +1,10 @@
 #!/bin/bash
 
-
 # Script to run a command on all the servers. 
 # View usage information with option -u
-# A list of servers, one per line.
-SERVER_LIST='/home/servers'
+
+# A list of servers to run the command, one per line.
+SERVER_LIST='/home/servers.txt'
 
 # Options for the ssh command.
 SSH_OPTIONS='-o ConnectTimeout=2'
